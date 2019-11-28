@@ -1,0 +1,27 @@
+{
+  "name": "seleniumworkshop",
+  "version": "1.0.0",
+  "description": "selenium practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "test-spec": "npm run test -- --spec $1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mpdo2017"
+  },
+  "author": "Michele Parsley",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "@wdio/cli": "^5.15.6"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^5.15.6",
+    "@wdio/mocha-framework": "^5.15.1",
+    "@wdio/sauce-service": "^5.14.0",
+    "@wdio/spec-reporter": "^5.15.2",
+    "@wdio/sync": "^5.15.7"
+  }
+}
